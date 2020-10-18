@@ -1,3 +1,4 @@
+python -m visdom.server & 
 python train.py --dataroot /storage/easle --name artgen \
 --preprocess='resize_and_crop' --gpu_ids=0 \
 --model cycle_gan --no_dropout \
